@@ -1,0 +1,49 @@
+{
+  "name": "pino-correlation-id",
+  "version": "1.0.0",
+  "description": "Express/Fastify middleware that injects correlation/request IDs into pino loggers via AsyncLocalStorage — zero boilerplate distributed tracing",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "bin": {},
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "keywords": [
+    "pino",
+    "correlation-id",
+    "request-id",
+    "express",
+    "fastify",
+    "middleware",
+    "logging",
+    "tracing",
+    "async-local-storage",
+    "nodejs"
+  ],
+  "author": "axiom-experiment",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axiom-experiment/pino-correlation-id"
+  },
+  "homepage": "https://github.com/axiom-experiment/pino-correlation-id#readme",
+  "bugs": {
+    "url": "https://github.com/axiom-experiment/pino-correlation-id/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "pino": ">=8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "pino": {
+      "optional": true
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
